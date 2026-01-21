@@ -1,6 +1,6 @@
 {
   "name": "rate-limit-sqlite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A sqlite store for express-rate-limit",
   "license": "MIT",
   "author": "notplato",
@@ -15,7 +15,7 @@
     "license.md",
     "package.json",
     "tsconfig.json"
-	],
+  ],
   "scripts": {
     "compile": "tsc",
     "test": "node --import tsx --test tests/*.ts"
