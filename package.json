@@ -1,0 +1,33 @@
+{
+  "name": "rate-limit-sqlite",
+  "version": "0.0.1",
+  "description": "A sqlite store for express-rate-limit",
+  "license": "MIT",
+  "author": "notplato",
+  "type": "module",
+  "exports": {
+    "default": "./build/index.js",
+    "types": "./build/index.d.ts"
+  },
+  "files": [
+    "build/",
+    "readme.md",
+    "license.md",
+    "package.json",
+    "tsconfig.json"
+	],
+  "scripts": {
+    "compile": "tsc",
+    "test": "node --import tsx --test tests/*.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
+    "@types/node": "^25.0.9",
+    "express-rate-limit": "^8.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "express-rate-limit": ">= 6"
+  }
+}
